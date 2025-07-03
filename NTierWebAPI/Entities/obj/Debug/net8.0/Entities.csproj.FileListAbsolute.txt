@@ -1,0 +1,82 @@
+/Users/Bahadr/Desktop/NTier./Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/Bahadr/Desktop/NTier./Entities/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier./Entities/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier./Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier./Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier./Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier./Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier./Entities/obj/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier./Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/Bahadr/Desktop/NTier./Entities/obj/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier./Entities/obj/Debug/net8.0/ref/Entities.dll
+/Users/Bahadr/Desktop/NTier. kopya/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/Bahadr/Desktop/NTier. kopya/Entities/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier. kopya/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier. kopya/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier. kopya/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier. kopya/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier. kopya/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier. kopya/Entities/obj/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier. kopya/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/Bahadr/Desktop/NTier. kopya/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier. kopya/Entities/obj/Debug/net8.0/ref/Entities.dll
+/Users/Bahadr/Desktop/NTier kopyası/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/Bahadr/Desktop/NTier kopyası/Entities/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier kopyası/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier kopyası/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier kopyası/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier kopyası/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier kopyası/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier kopyası/Entities/obj/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier kopyası/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/Bahadr/Desktop/NTier kopyası/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier kopyası/Entities/obj/Debug/net8.0/ref/Entities.dll
+/Users/Bahadr/Desktop/NTier/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/Bahadr/Desktop/NTier/Entities/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier/Entities/obj/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/Bahadr/Desktop/NTier/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier/Entities/obj/Debug/net8.0/ref/Entities.dll
+/Users/Bahadr/Desktop/NTier kopyası/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/obj/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/Entities/obj/Debug/net8.0/ref/Entities.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Entities/obj/Debug/net8.0/ref/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/Debug/net8.0/ref/Entities.dll

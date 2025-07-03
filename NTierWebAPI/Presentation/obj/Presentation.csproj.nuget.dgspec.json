@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Presentation/Presentation.csproj": {}
+  },
+  "projects": {
+    "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj",
+        "packagesPath": "/Users/Bahadr/.nuget/packages/",
+        "outputPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Bahadr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Presentation/Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Presentation/Presentation.csproj",
+        "projectName": "Presentation",
+        "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Presentation/Presentation.csproj",
+        "packagesPath": "/Users/Bahadr/.nuget/packages/",
+        "outputPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Bahadr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj": {
+                "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj"
+              },
+              "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/Services.csproj": {
+                "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/Repositories.csproj",
+        "packagesPath": "/Users/Bahadr/.nuget/packages/",
+        "outputPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Bahadr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj": {
+                "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/Services.csproj",
+        "projectName": "Services",
+        "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/Services.csproj",
+        "packagesPath": "/Users/Bahadr/.nuget/packages/",
+        "outputPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Bahadr/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj": {
+                "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj"
+              },
+              "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/Repositories.csproj": {
+                "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

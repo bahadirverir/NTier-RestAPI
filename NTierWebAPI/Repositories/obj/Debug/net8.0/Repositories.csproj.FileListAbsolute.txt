@@ -1,0 +1,105 @@
+/Users/Bahadr/Desktop/NTier./Repositories/bin/Debug/net8.0/Repositories.deps.json
+/Users/Bahadr/Desktop/NTier./Repositories/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier./Repositories/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier./Repositories/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier./Repositories/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/Repositories.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/Repositories.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/Reposito.787EC4B2.Up2Date
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/refint/Repositories.dll
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier./Repositories/obj/Debug/net8.0/ref/Repositories.dll
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/bin/Debug/net8.0/Repositories.deps.json
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/Repositories.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/Reposito.787EC4B2.Up2Date
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/refint/Repositories.dll
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier. kopya/Repositories/obj/Debug/net8.0/ref/Repositories.dll
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/bin/Debug/net8.0/Repositories.deps.json
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/Repositories.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/Reposito.787EC4B2.Up2Date
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/refint/Repositories.dll
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier kopyası/Repositories/obj/Debug/net8.0/ref/Repositories.dll
+/Users/Bahadr/Desktop/NTier/Repositories/bin/Debug/net8.0/Repositories.deps.json
+/Users/Bahadr/Desktop/NTier/Repositories/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier/Repositories/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier/Repositories/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier/Repositories/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/Repositories.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/Reposito.787EC4B2.Up2Date
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/refint/Repositories.dll
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier/Repositories/obj/Debug/net8.0/ref/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/bin/Debug/net8.0/Repositories.deps.json
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/Repositories.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/Reposito.787EC4B2.Up2Date
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/refint/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/Repositories/obj/Debug/net8.0/ref/Repositories.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/bin/Debug/net8.0/Repositories.deps.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/Reposito.787EC4B2.Up2Date
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/refint/Repositories.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Repositories/obj/Debug/net8.0/ref/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/bin/Debug/net8.0/Repositories.deps.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/Reposito.787EC4B2.Up2Date
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/refint/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/obj/Debug/net8.0/ref/Repositories.dll

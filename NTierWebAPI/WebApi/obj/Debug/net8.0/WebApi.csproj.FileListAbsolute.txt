@@ -1,0 +1,878 @@
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/appsettings.Development.json
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/appsettings.json
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/WebApi
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/WebApi.deps.json
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/WebApi.runtimeconfig.json
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Humanizer.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/MySqlConnector.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/System.CodeDom.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/System.Composition.Convention.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/System.Composition.Hosting.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/System.Composition.Runtime.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Presentation.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Presentation.pdb
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/staticwebassets.build.json
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/staticwebassets.development.json
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/staticwebassets/msbuild.build.WebApi.props
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/scopedcss/bundle/WebApi.styles.css
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.csproj.Up2Date
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/refint/WebApi.dll
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
+/Users/Bahadr/Desktop/NTier./WebApi/obj/Debug/net8.0/ref/WebApi.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/AutoMapper.dll
+/Users/Bahadr/Desktop/NTier./WebApi/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/appsettings.Development.json
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/appsettings.json
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/WebApi
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/WebApi.deps.json
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/WebApi.runtimeconfig.json
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/AutoMapper.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Humanizer.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/MySqlConnector.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/System.CodeDom.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/System.Composition.Convention.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/System.Composition.Hosting.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/System.Composition.Runtime.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Presentation.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Presentation.pdb
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/staticwebassets.build.json
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/staticwebassets.development.json
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.build.WebApi.props
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/scopedcss/bundle/WebApi.styles.css
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.csproj.Up2Date
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/refint/WebApi.dll
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
+/Users/Bahadr/Desktop/NTier. kopya/WebApi/obj/Debug/net8.0/ref/WebApi.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/appsettings.Development.json
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/appsettings.json
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/WebApi
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/WebApi.deps.json
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/WebApi.runtimeconfig.json
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/AutoMapper.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Humanizer.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/MySqlConnector.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/System.CodeDom.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/System.Composition.Convention.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/System.Composition.Hosting.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/System.Composition.Runtime.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Presentation.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Presentation.pdb
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/staticwebassets.build.json
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/staticwebassets.development.json
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.build.WebApi.props
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/scopedcss/bundle/WebApi.styles.css
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.csproj.Up2Date
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/refint/WebApi.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/obj/Debug/net8.0/ref/WebApi.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/CsvHelper.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/System.Linq.Dynamic.Core.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/appsettings.Development.json
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/appsettings.json
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/WebApi
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/WebApi.deps.json
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/WebApi.runtimeconfig.json
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/AutoMapper.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/CsvHelper.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Humanizer.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/MySqlConnector.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/System.CodeDom.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/System.Composition.Convention.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/System.Composition.Hosting.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/System.Composition.Runtime.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/System.Linq.Dynamic.Core.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Presentation.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Presentation.pdb
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier/WebApi/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/staticwebassets.build.json
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/staticwebassets.development.json
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.build.WebApi.props
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/scopedcss/bundle/WebApi.styles.css
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.csproj.Up2Date
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/refint/WebApi.dll
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
+/Users/Bahadr/Desktop/NTier/WebApi/obj/Debug/net8.0/ref/WebApi.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/Bahadr/Desktop/NTier kopyası/WebApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/appsettings.Development.json
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/appsettings.json
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/WebApi
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/WebApi.deps.json
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/WebApi.runtimeconfig.json
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/AutoMapper.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/CsvHelper.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Humanizer.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/MySqlConnector.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/System.CodeDom.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/System.Composition.Convention.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/System.Composition.Hosting.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/System.Composition.Runtime.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/System.Linq.Dynamic.Core.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Presentation.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Presentation.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/staticwebassets.build.json
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/staticwebassets.development.json
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.build.WebApi.props
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/scopedcss/bundle/WebApi.styles.css
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.csproj.Up2Date
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/refint/WebApi.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/WebApi/obj/Debug/net8.0/ref/WebApi.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/appsettings.Development.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/appsettings.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi.deps.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi.runtimeconfig.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/AutoMapper.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/CsvHelper.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Humanizer.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/MySqlConnector.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/System.CodeDom.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.Convention.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.Hosting.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.Runtime.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Linq.Dynamic.Core.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Presentation.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Presentation.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfo.cs
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets.build.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets.development.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.build.WebApi.props
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/scopedcss/bundle/WebApi.styles.css
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.csproj.Up2Date
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/refint/WebApi.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/WebApi/obj/Debug/net8.0/ref/WebApi.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/appsettings.Development.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/appsettings.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi.deps.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi.runtimeconfig.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/AutoMapper.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/CsvHelper.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Humanizer.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/MySqlConnector.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/System.CodeDom.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.AttributedModel.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.Convention.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.Hosting.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.Runtime.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Composition.TypedParts.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/System.Linq.Dynamic.Core.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Presentation.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Presentation.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets.build.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets.development.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.build.WebApi.props
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WebApi.props
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WebApi.props
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/scopedcss/bundle/WebApi.styles.css
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.csproj.Up2Date
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/refint/WebApi.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/WebApi/obj/Debug/net8.0/ref/WebApi.dll

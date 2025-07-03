@@ -1,0 +1,4593 @@
+{
+	"info": {
+		"_postman_id": "0b6673c2-5cda-4df3-a1b2-dd67d96124ea",
+		"name": "NTier",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39392031"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Registration - Admin",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {",
+									"    pm.response.to.have.status(201);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Admin\",\n  \"lastName\": \"Admin\",\n  \"userName\": \"admin\",\n  \"passWord\": \"admin123456\",\n  \"email\": \"admin_1@gmail.com\",\n  \"phoneNumber\": \"5555555555\",\n  \"roles\": [\n    \"Admin\"\n  ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Authentication/Register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Authentication",
+								"Register"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint is used to register a new user into the system with specified credentials and assigned\n\nroles.\n\n## 🔐 Authorization\n\n- Required: No\n    \n- Type: None (Public Access)\n    \n\n## 📥 Request Body\n\n- Example:\n    \n- {  \n    \"firstName\": \"randomFirstname\",  \n    \"lastName\": \"randomLastName\",  \n    \"userName\": \"randomUserName\",  \n    \"passWord\": \"user123456\",  \n    \"email\": \"randomuser_1[@gmail.com](https://mailto:aadmin_1@gmail.com)\",  \n    \"phoneNumber\": \"5555555555\",  \n    \"roles\": \\[  \n    \"User\"  \n    \\]  \n    }\n    \n- You can adjust the values ​​as you wish."
+					},
+					"response": []
+				},
+				{
+					"name": "Authenticate - Admin",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", () => {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Access Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const accesToken = response.accesToken; // BACKEND'DEKİ İSİM",
+									"    pm.globals.set(\"accesToken\", accesToken); // GLOBAL DEĞİŞKEN DE BÖYLE",
+									"    pm.expect(pm.globals.get(\"accesToken\")).to.eql(accesToken);",
+									"});",
+									"",
+									"pm.test(\"Refresh Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const refreshToken = response.refreshToken; // BACKEND'DEKİ İSİM",
+									"    pm.globals.set(\"refreshToken\", refreshToken); // GLOBAL DEĞİŞKEN",
+									"    pm.expect(pm.globals.get(\"refreshToken\")).to.eql(refreshToken);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"userName\": \"admin\",\n  \"passWord\": \"admin123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Authentication/Login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Authentication",
+								"Login"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint authenticates a admin by validating their username and password. Upon successful\n\nauthentication, it returns an access token and a refresh token.\n\n## 🔐 Authorization\n\n- Required: No\n    \n- Type: None (Public Access)\n    \n\n## 📥 Request Body\n\n- Example:\n    \n- {  \n    \"userName\": \"aadmin\",  \n    \"passWord\": \"aadmin123456\"  \n    }"
+					},
+					"response": []
+				},
+				{
+					"name": "RefreshToken - Admin",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", () => {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Access Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const accesToken = response.accesToken; // BACKEND'DEKİ İSİM",
+									"    pm.globals.set(\"accesToken\", accesToken); // GLOBAL DEĞİŞKEN DE BÖYLE",
+									"    pm.expect(pm.globals.get(\"accesToken\")).to.eql(accesToken);",
+									"});",
+									"",
+									"pm.test(\"Refresh Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const refreshToken = response.refreshToken;",
+									"    pm.globals.set(\"refreshToken\", refreshToken);",
+									"    pm.expect(pm.globals.get(\"refreshToken\")).to.eql(refreshToken);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"accesToken\": \"{{accesToken}}\",\n    \"refreshToken\": \"{{refreshToken}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Authentication/RefreshToken",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Authentication",
+								"RefreshToken"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint refreshes the JWT access token for a admin using a valid refresh token. It\n\nhelps maintain the session without requiring the user to log in again.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- Example:\n    \n- {  \n    \"accesToken\": \"{{accesToken}}\",  \n    \"refreshToken\": \"{{refreshToken}}\"  \n    }"
+					},
+					"response": []
+				},
+				{
+					"name": "Registration - Manager",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {",
+									"    pm.response.to.have.status(201);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"Manager\",\n  \"lastName\": \"Manager\",\n  \"userName\": \"manager\",\n  \"passWord\": \"manager123456\",\n  \"email\": \"manager_1@gmail.com\",\n  \"phoneNumber\": \"5555555555\",\n  \"roles\": [\n    \"Manager\"\n  ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Authentication/Register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Authentication",
+								"Register"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint is used to register a new user into the system with specified credentials and assigned\n\nroles.\n\n## 🔐 Authorization\n\n- Required: No\n    \n- Type: None (Public Access)\n    \n\n## 📥 Request Body\n\n- Example:\n    \n- {  \n    \"firstName\": \"randomFirstname\",  \n    \"lastName\": \"randomLastName\",  \n    \"userName\": \"randomUserName\",  \n    \"passWord\": \"user123456\",  \n    \"email\": \"randomuser_1[@gmail.com](https://mailto:aadmin_1@gmail.com)\",  \n    \"phoneNumber\": \"5555555555\",  \n    \"roles\": \\[  \n    \"User\"  \n    \\]  \n    }\n    \n- You can adjust the values ​​as you wish."
+					},
+					"response": []
+				},
+				{
+					"name": "Authenticate - Manager",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", () => {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Access Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const accesToken = response.accesToken; // BACKEND'DEKİ İSİM",
+									"    pm.globals.set(\"accesToken\", accesToken); // GLOBAL DEĞİŞKEN DE BÖYLE",
+									"    pm.expect(pm.globals.get(\"accesToken\")).to.eql(accesToken);",
+									"});",
+									"",
+									"pm.test(\"Refresh Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const refreshToken = response.refreshToken; // BACKEND'DEKİ İSİM",
+									"    pm.globals.set(\"refreshToken\", refreshToken); // GLOBAL DEĞİŞKEN",
+									"    pm.expect(pm.globals.get(\"refreshToken\")).to.eql(refreshToken);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"userName\": \"manager\",\n  \"passWord\": \"manager123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Authentication/Login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Authentication",
+								"Login"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint authenticates a manager by validating their username and password. Upon successful\n\nauthentication, it returns an access token and a refresh token.\n\n## 🔐 Authorization\n\n- Required: No\n    \n- Type: None (Public Access)\n    \n\n## 📥 Request Body\n\n- Example:\n    \n- {  \n    \"userName\": \"mmanager\",  \n    \"passWord\": \"mmanager123456\",  \n    }"
+					},
+					"response": []
+				},
+				{
+					"name": "RefreshToken - Manager",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", () => {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Access Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const accessToken = response.accessToken;",
+									"    pm.globals.set(\"accessToken\", accessToken);",
+									"    pm.expect(pm.globals.get(\"accessToken\")).to.eql(accessToken);",
+									"});",
+									"",
+									"pm.test(\"Refresh Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const refreshToken = response.refreshToken;",
+									"    pm.globals.set(\"refreshToken\", refreshToken);",
+									"    pm.expect(pm.globals.get(\"refreshToken\")).to.eql(refreshToken);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"accesToken\": \"{{accesToken}}\",\n    \"refreshToken\": \"{{refreshToken}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Authentication/RefreshToken",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Authentication",
+								"RefreshToken"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint refreshes the JWT access token for a manager using a valid refresh token. It\n\nhelps maintain the session without requiring the user to log in again.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- Example:\n    \n- {  \n    \"accesToken\": \"{{accesToken}}\",  \n    \"refreshToken\": \"{{refreshToken}}\"  \n    }"
+					},
+					"response": []
+				},
+				{
+					"name": "Registration - User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {",
+									"    pm.response.to.have.status(201);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"User\",\n  \"lastName\": \"User\",\n  \"userName\": \"user\",\n  \"passWord\": \"user123456\",\n  \"email\": \"user_1@gmail.com\",\n  \"phoneNumber\": \"5555555555\",\n  \"roles\": [\n    \"User\"\n  ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Authentication/Register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Authentication",
+								"Register"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint is used to register a new user into the system with specified credentials and assigned\n\nroles.\n\n## 🔐 Authorization\n\n- Required: No\n    \n- Type: None (Public Access)\n    \n\n## 📥 Request Body\n\n- Example:\n    \n- {  \n    \"firstName\": \"randomFirstname\",  \n    \"lastName\": \"randomLastName\",  \n    \"userName\": \"randomUserName\",  \n    \"passWord\": \"user123456\",  \n    \"email\": \"randomuser_1[@gmail.com](https://mailto:aadmin_1@gmail.com)\",  \n    \"phoneNumber\": \"5555555555\",  \n    \"roles\": \\[  \n    \"User\"  \n    \\]  \n    }\n    \n- You can adjust the values ​​as you wish."
+					},
+					"response": []
+				},
+				{
+					"name": "Authenticate - User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", () => {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Access Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const accesToken = response.accesToken; // BACKEND'DEKİ İSİM",
+									"    pm.globals.set(\"accesToken\", accesToken); // GLOBAL DEĞİŞKEN DE BÖYLE",
+									"    pm.expect(pm.globals.get(\"accesToken\")).to.eql(accesToken);",
+									"});",
+									"",
+									"pm.test(\"Refresh Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const refreshToken = response.refreshToken; // BACKEND'DEKİ İSİM",
+									"    pm.globals.set(\"refreshToken\", refreshToken); // GLOBAL DEĞİŞKEN",
+									"    pm.expect(pm.globals.get(\"refreshToken\")).to.eql(refreshToken);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"userName\": \"user\",\n  \"passWord\": \"user123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Authentication/Login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Authentication",
+								"Login"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint authenticates a user by validating their username and password. Upon successful\n\nauthentication, it returns an access token and a refresh token.\n\n## 🔐 Authorization\n\n- Required: No\n    \n- Type: None (Public Access)\n    \n\n## 📥 Request Body\n\n- Example:\n    \n- {  \n    \"userName\": \"uuser\",  \n    \"passWord\": \"uuser123456\"  \n    }"
+					},
+					"response": []
+				},
+				{
+					"name": "RefreshToken - User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", () => {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Access Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const accessToken = response.accessToken;",
+									"    pm.globals.set(\"accessToken\", accessToken);",
+									"    pm.expect(pm.globals.get(\"accessToken\")).to.eql(accessToken);",
+									"});",
+									"",
+									"pm.test(\"Refresh Token Test\", () => {",
+									"    const response = pm.response.json();",
+									"    const refreshToken = response.refreshToken;",
+									"    pm.globals.set(\"refreshToken\", refreshToken);",
+									"    pm.expect(pm.globals.get(\"refreshToken\")).to.eql(refreshToken);",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"accesToken\": \"{{accesToken}}\",\n    \"refreshToken\": \"{{refreshToken}}\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Authentication/RefreshToken",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Authentication",
+								"RefreshToken"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint refreshes the JWT access token for a user using a valid refresh token. It\n\nhelps maintain the session without requiring the user to log in again.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- Example:\n    \n- {  \n    \"accesToken\": \"{{accesToken}}\",  \n    \"refreshToken\": \"{{refreshToken}}\"  \n    }"
+					},
+					"response": []
+				},
+				{
+					"name": "LogOut",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/authentication/Logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"authentication",
+								"Logout"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint logs out the authenticated user by invalidating the current refresh token. It ensures\n\nthat the token cannot be reused to obtain new access tokens.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				}
+			],
+			"description": "## 🗂️ **Authentication Folder Description**\n\nThis folder contains all endpoints related to user identity management and authentication operations. It supports different user roles such as `Admin`, `Manager`, and `User`.\n\n## 🔐 Key Features\n\n- **Registration**\n    \n    Register a new user with specific roles (Admin, Manager, User).\n    \n- **Authentication**\n    \n    Authenticate users and obtain access & refresh tokens using their credentials.\n    \n- **Token Refreshing**\n    \n    Securely refresh access tokens using the previously issued refresh token.\n    \n- **Logout**\n    \n    Invalidate the current refresh token to log out the user.\n    \n\n## 👥 Roles Covered\n\n- Admin\n    \n- Manager\n    \n- User\n    \n\n### 🛡️ Authorization\n\nMost endpoints require a valid **Bearer Token**, except for the registration request.",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{accesToken}}",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Departments",
+			"item": [
+				{
+					"name": "GetAllDepartments",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Test 1: Status code is 200",
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/json\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Departments from the database\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllDepartments-406-NotAcceptable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 406\", function () {",
+									"    pm.response.to.have.status(406);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/atom+xml",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Departments from the database.\n\nIf the client requests a response format that the server does not support (e.g., an unsupported `Accept` header value), the server will return a **406 Not Acceptable** status code.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllDepartments-CSV",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is text/csv\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/csv\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/csv",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Departments from the database in **CSV format**.\n\nTo receive the response in CSV, make sure to set the `Accept` header to `text/csv`.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllDepartments-XML",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/xml\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/xml\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Departments from the database in XML **format**.\n\nTo receive the response in XML, make sure to set the `Accept` header to `application/xml`.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneDepartmentByID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"3"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves the details of a specific Department from the database using its unique ID.\n\nThe ID must be provided as a path parameter in the URL.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneDeparmentByWrongID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});",
+									"",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/3000000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"3000000"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to retrieve a Department by a non-existing or invalid ID.\n\nIt is used to test how the system handles requests for departments that do not exist in the database.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneDepartment-XML",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/xml\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/xml\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"3"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a single Department by its ID and returns the response formatted in XML.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneDepartment-CSV",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is text/csv\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/csv\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {
+							"accept": true
+						}
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/csv",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"3"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a single Department by its ID and returns the response formatted in CSV.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetDepartments-WithPagination",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/ByParameters?pageNumber=1&pageSize=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a paginated list of Departments from the database based on the specified\n\n`page number` and `page size` query parameters.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetDepartments-ByOrdering",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/ByParameters?OrderBy=departmentID%20desc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "OrderBy",
+									"value": "departmentID%20desc"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a list of Departments from the database ordered according to the specified\n\n`OrderBy` query parameter.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetDepartments-BySearching",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/ByParameters?DepartmentName=Y",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "DepartmentName",
+									"value": "Y"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves Departments from the database whose names contain the specified search\n\nterm provided in the `DepartmentName` query parameter.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetDepartments-ByDataShaping",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/ByParameters?Fields=DepartmentName\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "Fields",
+									"value": "DepartmentName\n"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves all Departments from the database, returning only the specified fields\n\ndefined in the `Fields` query parameter (data shaping).\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetDepartments-ByParameters",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/ByParameters?DepartmentName=%C4%B0&PageNumber=1&PageSize=3&OrderBy=DepartmentName\n&Fields=DepartmentName",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "DepartmentName",
+									"value": "%C4%B0"
+								},
+								{
+									"key": "PageNumber",
+									"value": "1"
+								},
+								{
+									"key": "PageSize",
+									"value": "3"
+								},
+								{
+									"key": "OrderBy",
+									"value": "DepartmentName\n"
+								},
+								{
+									"key": "Fields",
+									"value": "DepartmentName"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a filtered, paginated, and sorted list of Departments from the database based on the given query parameters. It also returns only the specified fields using data shaping.\n\n- 🔍 **Filter**: `DepartmentName=İ`\n    \n- 📄 **Pagination**: `PageNumber=1`, `PageSize=3`\n    \n- 🧮 **Sorting**: `OrderBy=DepartmentName`\n    \n- 🧩 **Data Shaping**: `Fields=DepartmentName`\n    \n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "CreateDepartment",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"// Rastgele bir department ID (örnek: 1000 - 9999 arası)",
+									"const randomId = Math.floor(Math.random() * 9000) + 1000;",
+									"",
+									"// Rastgele bir department adı",
+									"const randomName = `Dept-${Math.floor(Math.random() * 10000)}`;",
+									"",
+									"pm.environment.set(\"randomDepartmentId\", randomId);",
+									"pm.environment.set(\"randomDepartmentName\", randomName);",
+									"",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {",
+									"    pm.response.to.have.status(201);",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/json\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"departmentID\": {{randomDepartmentId}},\n  \"departmentName\": \"{{randomDepartmentName}}\"\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint creates a new department in the database using the provided `departmentID` and\n\n`departmentName`. The department ID must be unique.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"departmentID\": {{randomDepartmentId}},  \n\"departmentName\": \"{{randomDepartmentName}}\"  \n}\n\n- You can adjust the values ​​as you wish."
+					},
+					"response": []
+				},
+				{
+					"name": "CreateDepartment-415-MediaType",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 415\", function () {",
+									"    pm.response.to.have.status(415);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<DepartmentDto>\n\t<DepartmentID>0</DepartmentID>\n\t<DepartmentName>string</DepartmentName>\n</DepartmentDto>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new department but triggers a `415 Unsupported Media Type`\n\nerror due to incorrect or missing `Content-Type` header. The server expects the request body to be\n\nin JSON format.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\nAny payload — but the `Content-Type` header is missing or incorrect."
+					},
+					"response": []
+				},
+				{
+					"name": "CreateDepartment-409-Conflict",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 409\", function () {",
+									"    pm.response.to.have.status(409);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"departmentID\": 3,\n  \"departmentName\": \"Yazılım\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new department, but it fails with a `409 Conflict` response\n\nbecause a department with the same `departmentID` and `departmentName` already exists in the\n\ndatabase.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- {  \n    \"departmentID\": 3,  \n    \"departmentName\": \"Yazılım\"  \n    }"
+					},
+					"response": []
+				},
+				{
+					"name": "CreateDepartment-422-Unprocessable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 422\", function () {",
+									"    pm.response.to.have.status(422);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new department but returns a `422 Unprocessable Entity` error\n\nbecause the request body is syntactically correct but semantically invalid — for example, required\n\nfields may be missing or contain invalid values.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{\n\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "CreateDeparment-400-BadRequest",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new department but returns a `400 Bad Request` error due to a\n\nmalformed request body — for example, empty request body, missing JSON fields, incorrect\n\nproperty names, or an invalid data format.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateDepartment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/json\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"departmentName\": \"Postmannn\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/4848",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"4848"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint updates an existing department in the database using the specified `departmentID` in\n\nthe URL. The request body must include the new values for the department.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"departmentName\": \"Postmannn\"  \n}\n\n- Always make sure that the department is still valid before update operation."
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateDepartment-415-MediaType",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 415\", function () {",
+									"    pm.response.to.have.status(415);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<DepartmentDtoForUpdate>\n\t<DepartmentName>strwaing</DepartmentName>\n</DepartmentDtoForUpdate>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/50",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"50"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update an existing department but fails due to an unsupported or missing\n\n`Content-Type` header. The server expects the request body to be sent in a supported media type,\n\nsuch as `application/json`.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\nBody is present but sent with an incorrect or missing `Content-Type` header."
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateDepartment-404-WrongID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"departmentName\": \"Postmannn\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/50000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"50000"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update a department using a non-existent `DepartmentID`. The server\n\nreturns a 404 error indicating that the specified resource could not be found in the database.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"departmentName\": \"Postmannn\"  \n}"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateDeparment-400-BadRequest",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});",
+									"",
+									"",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"3"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update an existing department but fails due to an invalid request body or\n\nmissing required fields. The server returns a `400 Bad Request` response indicating the client sent\n\ndata the server could not process.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateDeparment-422-Unprocessable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 422\", function () {",
+									"    pm.response.to.have.status(422);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"3"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update a department but fails due to semantic errors in the request body.\n\nAlthough the request format is correct, the content violates business rules (e.g., department name\n\nis too short or invalid). The server returns a `422 Unprocessable Entity` response.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- {\n    \n\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteDepartment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 204\", function () {",
+									"    pm.response.to.have.status(204);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/8302",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"8302"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint deletes an existing department from the database by its unique Department ID.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None\n    \n\n## 📌 **Note**\n\n- Make sure the provided `DepartmentID` exists before calling this endpoint.\n    \n- Deletion is permanent and cannot be undone."
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteDepartment-404-WrongID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments/12400",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments",
+								"12400"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to delete a department using an invalid or non-existing Department ID and\n\nreturns a `404 Not Found` error.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "Departments-Options",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Allow Header is present\", function () {",
+									"    pm.response.to.have.header(\"Allow\");",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint returns the supported HTTP methods (OPTIONS) for the Departments resource,\n\nhelping clients understand which operations are allowed.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "Departments-Headers",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "HEAD",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Departments",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Departments"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint returns only the headers without the response body for the Departments resource.\n\nIt is mainly used to check metadata such as status codes, content type, and available headers.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				}
+			],
+			"description": "## 📝 Description\n\n#### This folder contains API endpoints related to department management. You can retrieve, create, update, or delete department records. It supports features like filtering, pagination, sorting, and data shaping to efficiently query department data.",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{accesToken}}",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Employees",
+			"item": [
+				{
+					"name": "GetAllEmployees",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/json\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Employees from the database\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllEmployees-406-NotAcceptable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 406\", function () {",
+									"    pm.response.to.have.status(406);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Employees from the database.\n\nIf the client requests a response format that the server does not support (e.g., an unsupported `Accept` header value), the server will return a **406 Not Acceptable** status code.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllEmployees-CSV",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is text/csv\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/csv\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/csv",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Employees from the database in **CSV format**.\n\nTo receive the response in CSV, make sure to set the `Accept` header to `text/csv`.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllEmployees-XML",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/xml\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/xml\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Departments from the database in XML **format**.\n\nTo receive the response in XML, make sure to set the `Accept` header to `application/xml`.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneEmployeeByID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"1"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves the details of a specific Employee from the database using its unique ID.\n\nThe ID must be provided as a path parameter in the URL.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneEmployeeByWrongID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/100000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"100000"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to retrieve a Employee by a non-existing or invalid ID.\n\nIt is used to test how the system handles requests for employees that do not exist in the database.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneEmployee-XML",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/xml\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/xml\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"1"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a single Employee by its ID and returns the response formatted in XML.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneEmployee-CSV",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is text/csv\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/csv\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/csv",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"1"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a single Employee by its ID and returns the response formatted in CSV.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetEmployees-WithPagination",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/ByParameters?pageNumber=1&pageSize=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a paginated list of Employees from the database based on the specified\n\n`page number` and `page size` query parameters.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetEmployees-ByFiltering",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/ByParameters?MinSalary=30000&MaxSalary=50000&FirstName=D&LastName=K&PageNumber=1&PageSize=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "MinSalary",
+									"value": "30000"
+								},
+								{
+									"key": "MaxSalary",
+									"value": "50000"
+								},
+								{
+									"key": "FirstName",
+									"value": "D"
+								},
+								{
+									"key": "LastName",
+									"value": "K"
+								},
+								{
+									"key": "PageNumber",
+									"value": "1"
+								},
+								{
+									"key": "PageSize",
+									"value": "5"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a filtered list of Employees from the database based on the specified\n\n`MinSalary` and `MaxSalary` query parameters.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetEmployees-BySearching",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/ByParameters?FirstName=A&LastName=K",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "FirstName",
+									"value": "A"
+								},
+								{
+									"key": "LastName",
+									"value": "K"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves Employees from the database whose names contain the specified search\n\nterm provided in the `FirstName` , `LastName` query parameter.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetEmployees-ByOrdering",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/ByParameters?OrderBy=salary%20asc%2C%20employeeID%20asc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "OrderBy",
+									"value": "salary%20asc%2C%20employeeID%20asc"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a list of Employees from the database ordered according to the specified\n\n`OrderBy` query parameter.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetEmployees-ByDataShaping",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/ByParameters?Fields=FirstNamE%2C%20LastName",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "Fields",
+									"value": "FirstNamE%2C%20LastName"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves all Employees from the database, returning only the specified fields\n\ndefined in the `Fields` query parameter (data shaping).\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetEmployees-ByParameters",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/ByParameters?MinSalary=35000&MaxSalary=45000&FirstName=A&LastName=A&PageNumber=1&PageSize=3&OrderBy=FirstName asc&Fields=FirstName, LastName",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "MinSalary",
+									"value": "35000"
+								},
+								{
+									"key": "MaxSalary",
+									"value": "45000"
+								},
+								{
+									"key": "FirstName",
+									"value": "A"
+								},
+								{
+									"key": "LastName",
+									"value": "A"
+								},
+								{
+									"key": "PageNumber",
+									"value": "1"
+								},
+								{
+									"key": "PageSize",
+									"value": "3"
+								},
+								{
+									"key": "OrderBy",
+									"value": "FirstName asc"
+								},
+								{
+									"key": "Fields",
+									"value": "FirstName, LastName"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a filtered, paginated, and sorted list of Employees from the database based on the given query parameters. It also returns only the specified fields using data shaping.\n\n- 🔍 **Filter**: `MinSalary=35000, MaxSalary=45000`\n    \n- 🔍 **OrderBy**: `FirtName asc`\n    \n- 📄 **Pagination**: `PageNumber=1`, `PageSize=3`\n    \n- 🧮 **Sorting**: `OrderBy=DepartmentName`\n    \n- 🧩 **Data Shaping**: `Fields=FirstName,LastName`\n    \n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "CreateEmployee",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"function generateRandomEmployee() {",
+									"    const randomId = Math.floor(Math.random() * 10000); // 0 - 9999 arası rastgele ID",
+									"    const firstName = \"Employee-\" + randomId;",
+									"    const lastName = \"Random\";",
+									"    const salary = (Math.random() * (100000 - 30000) + 30000).toFixed(2); // 30,000 - 100,000",
+									"    const departmentId = 1;",
+									"    const jobId = 1;",
+									"",
+									"    return {",
+									"        EmployeeID: randomId,",
+									"        FirstName: firstName,",
+									"        LastName: lastName,",
+									"        Salary: parseFloat(salary),",
+									"        DepartmentID: departmentId,",
+									"        JobID: jobId",
+									"    };",
+									"}",
+									"",
+									"const employee = generateRandomEmployee();",
+									"pm.environment.set(\"employee\", JSON.stringify(employee));",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {",
+									"    pm.response.to.have.status(201);",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/json\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{{employee}}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint creates a new employee in the database using the provided fields.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"employeeID\": 1110,  \n\"firstName\": \"randomFirstName\",  \n\"lastName\": \"randomLastName\",  \n\"salary\": 37000,  \n\"departmentID\": 1,  \n\"jobID\": 1  \n}\n\n- You can adjust the values ​​as you wish."
+					},
+					"response": []
+				},
+				{
+					"name": "CreateEmployee-415-MediaType",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 415\", function () {",
+									"    pm.response.to.have.status(415);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<EmployeeDto>\n\t<EmployeeID>110</EmployeeID>\n\t<FirstName>string</FirstName>\n\t<LastName>string</LastName>\n\t<Salary>0</Salary>\n\t<DepartmentID>0</DepartmentID>\n\t<JobID>0</JobID>\n</EmployeeDto>\n",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new employee but triggers a `415 Unsupported Media Type`\n\nerror due to incorrect or missing `Content-Type` header. The server expects the request body to be\n\nin JSON format.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\nAny payload — but the `Content-Type` header is missing or incorrect."
+					},
+					"response": []
+				},
+				{
+					"name": "CreateEmployee-409-Conflict",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 409\", function () {",
+									"    pm.response.to.have.status(409);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"employeeID\": 1,\n  \"firstName\": \"string\",\n  \"lastName\": \"string\",\n  \"salary\": 0,\n  \"departmentID\": 1,\n  \"jobID\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new employee, but it fails with a `409 Conflict` response\n\nbecause a employee with the same `employeeID` already exists in the database.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"employeeID\": 1,  \n\"firstName\": \"string\",  \n\"lastName\": \"string\",  \n\"salary\": 0,  \n\"departmentID\": 1,  \n\"jobID\": 1  \n}"
+					},
+					"response": []
+				},
+				{
+					"name": "CreateEmployee-422-Unprocessable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 422\", function () {",
+									"    pm.response.to.have.status(422);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"employeeID\": 0,\n  \"firstName\": \"string\",\n  \"lastName\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new employee but returns a `422 Unprocessable Entity` error\n\nbecause the request body is syntactically correct but semantically invalid — for example, required\n\nfields may be missing or contain invalid values.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{\n\n\"employeeID\": 0,\n\n\"firstName\": \"string\",\n\n\"lastName\": \"string\"\n\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "CreateEmployee-400-BadRequest",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new employee but returns a `400 Bad Request` error due to a\n\nmalformed request body — for example, empty request body, missing JSON fields, incorrect\n\nproperty names, or an invalid data format.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateEmployee",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"RandomEmp\",\n  \"lastName\": \"RandomLastname\",\n  \"salary\": 4000,\n  \"departmentID\": 1,\n  \"jobID\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/1224",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"1224"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint updates an existing employee in the database using the specified `employeeID` in\n\nthe URL. The request body must include the new values for the employee.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"firstName\": \"RandomEmp\",  \n\"lastName\": \"RandomLastname\",  \n\"salary\": 4000,  \n\"departmentID\": 1,  \n\"jobID\": 1  \n}\n\n- Always make sure that the employee is still valid before update operation."
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateEmployee-415-MediaType",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 415\", function () {",
+									"    pm.response.to.have.status(415);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<EmployeeDtoForUpdate>\n\t<FirstName>string</FirstName>\n\t<LastName>string</LastName>\n\t<Salary>0</Salary>\n\t<DepartmentID>0</DepartmentID>\n\t<JobID>0</JobID>\n</EmployeeDtoForUpdate>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"2"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update an existing employee but fails due to an unsupported or missing\n\n`Content-Type` header. The server expects the request body to be sent in a supported media type,\n\nsuch as `application/json`.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\nBody is present but sent with an incorrect or missing `Content-Type` header."
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateEmployee-404-WrongID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"string\",\n  \"lastName\": \"string\",\n  \"salary\": 0,\n  \"departmentID\": 0,\n  \"jobID\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/1010101",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"1010101"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update a employee using a non-existent `employeeID`. The server\n\nreturns a 404 error indicating that the specified resource could not be found in the database.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"firstName\": \"string\",  \n\"lastName\": \"string\",  \n\"salary\": 0,  \n\"departmentID\": 0,  \n\"jobID\": 0  \n}"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateEmployee-400-BadRequest",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"2"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update an existing employee but fails due to an invalid request body or\n\nmissing required fields. The server returns a `400 Bad Request` response indicating the client sent\n\ndata the server could not process.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateEmployee-422-Unprocessable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 422\", function () {",
+									"    pm.response.to.have.status(422);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"firstName\": \"string\",\n  \"lastName\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"2"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update a job but fails due to semantic errors in the request body.\n\nAlthough the request format is correct, the content violates business rules. The server\n\nreturns a `422 Unprocessable Entity` response.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- {\n    \n\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteEmployee",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 204\", function () {",
+									"    pm.response.to.have.status(204);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/2891",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"2891"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint deletes an existing employee from the database by its unique Employee ID.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None\n    \n\n## 📌 **Note**\n\n- Make sure the provided `EmployeeID` exists before calling this endpoint.\n    \n- Deletion is permanent and cannot be undone."
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteEmployee-404-WrongID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees/121213",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees",
+								"121213"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to delete a employee using an invalid or non-existing Employee ID and\n\nreturns a `404 Not Found` error.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "Employees-Options",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Allow Header is present\", function () {",
+									"    pm.response.to.have.header(\"Allow\");",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint returns the supported HTTP methods (OPTIONS) for the Employees resource,\n\nhelping clients understand which operations are allowed.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "Employees-Headers",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "HEAD",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Employees",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Employees"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint returns only the headers without the response body for the Employees resource.\n\nIt is mainly used to check metadata such as status codes, content type, and available headers.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				}
+			],
+			"description": "## 📝 Description\n\n#### This folder contains API endpoints related to employee management. You can retrieve, create, update, or delete department records. It supports features like filtering, pagination, sorting, and data shaping to efficiently query department data.",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{accesToken}}",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Jobs",
+			"item": [
+				{
+					"name": "GetAllJobs",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"pm.test(\"Content-Type is application/json\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Jobs from the database\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllJobs-406-NotAcceptable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 406\", function () {",
+									"    pm.response.to.have.status(406);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Jobs from the database.\n\nIf the client requests a response format that the server does not support (e.g., an unsupported `Accept` header value), the server will return a **406 Not Acceptable** status code.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllJobs-CSV",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is text/csv\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/csv\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/csv",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Jobs from the database in **CSV format**.\n\nTo receive the response in CSV, make sure to set the `Accept` header to `text/csv`.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAllJobs-XML",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/xml\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/xml\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves a list of all existing Jobs from the database in XML **format**.\n\nTo receive the response in XML, make sure to set the `Accept` header to `application/xml`.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneJobByID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"1"
+							]
+						},
+						"description": "## 📝 Description\n\nThis endpoint retrieves the details of a specific Job from the database using its unique ID.\n\nThe ID must be provided as a path parameter in the URL.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneJobByWrongID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/100000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"100000"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to retrieve a Job by a non-existing or invalid ID.\n\nIt is used to test how the system handles requests for Jobs that do not exist in the database.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneJob-XML",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/xml\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/xml\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"1"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a single Job by its ID and returns the response formatted in XML.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneJob-CSV",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Content-Type is text/csv\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"text/csv\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/csv",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"1"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a single Job by its ID and returns the response formatted in CSV.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetJobs-WithPagination",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/ByParameters?pageNumber=1&pageSize=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "pageNumber",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "3"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a paginated list of Jobs from the database based on the specified\n\n`page number` and `page size` query parameters.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetJobs-ByFiltering",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/ByParameters?JobTitle=Ya&PageNumber=1&PageSize=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "JobTitle",
+									"value": "Ya"
+								},
+								{
+									"key": "PageNumber",
+									"value": "1"
+								},
+								{
+									"key": "PageSize",
+									"value": "1"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a filtered and paginated list of jobs based on the provided job title keyword.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetJobs-BySearching",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/ByParameters?JobTitle=Sa",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "JobTitle",
+									"value": "Sa"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves Jobs from the database whose names contain the specified search\n\nterm provided in the `JobTitle` query parameter.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetJobs-ByOrdering",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/ByParameters?OrderBy=DepartmentId%20desc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "OrderBy",
+									"value": "DepartmentId%20desc"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a list of Jobs from the database ordered according to the specified\n\n`OrderBy` query parameter.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetJobs-ByDataShaping",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/ByParameters?Fields=JobTitle%2C%20JobID&",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "Fields",
+									"value": "JobTitle%2C%20JobID"
+								},
+								{
+									"key": "",
+									"value": null
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves all Jobs from the database, returning only the specified fields\n\ndefined in the `Fields` query parameter (data shaping).\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "GetJobs-ByParameters",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination Header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/ByParameters?DepartmentID=3&JobTitle=S&PageNumber=1&PageSize=5&OrderBy=jobTitle%20asc%20jobID%20asc&Fields=JobTitle, JobId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"ByParameters"
+							],
+							"query": [
+								{
+									"key": "DepartmentID",
+									"value": "3"
+								},
+								{
+									"key": "JobTitle",
+									"value": "S"
+								},
+								{
+									"key": "PageNumber",
+									"value": "1"
+								},
+								{
+									"key": "PageSize",
+									"value": "5"
+								},
+								{
+									"key": "OrderBy",
+									"value": "jobTitle%20asc%20jobID%20asc"
+								},
+								{
+									"key": "Fields",
+									"value": "JobTitle, JobId"
+								}
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint retrieves a list of jobs based on multiple query parameters including department ID,\n\npartial job title, sorting preferences, and selected fields.\n\n- 🧾 **Filtering**: `DepartmentID`, `JobTitle`\n    \n- 📄 **Pagination**: `PageNumber`, `PageSize`\n    \n- 🔃 **Ordering**: `OrderBy` (e.g., `JobTitle asc`, `JobID asc`)\n    \n- 🧩 **Data Shaping**: `Fields` (e.g., `JobTitle`, `JobId`)\n    \n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "CreateJob",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"function generateRandomJob() {",
+									"    const randomId = Math.floor(Math.random() * 10000); // 0 - 9999 arası rastgele ID",
+									"    const jobTitle = \"Job-\" + randomId;",
+									"    const departmentId = 1; // İstersen burada sabit tutabilirsin veya rastgeleleştirebiliriz",
+									"",
+									"    return {",
+									"        jobID: randomId,",
+									"        jobTitle: jobTitle,",
+									"        departmentID: departmentId",
+									"    };",
+									"}",
+									"",
+									"const job = generateRandomJob();",
+									"pm.environment.set(\"job\", JSON.stringify(job));",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {",
+									"    pm.response.to.have.status(201);",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});",
+									"",
+									"pm.test(\"Content-Type is application/json\", function () {",
+									"    pm.response.to.have.header(\"Content-Type\");",
+									"    pm.expect(pm.response.headers.get(\"Content-Type\")).to.include(\"application/json\");",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{{job}}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint creates a new job in the database using the provided fields.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"jobID\": 0,  \n\"jobTitle\": \"string\",  \n\"departmentID\": 0  \n}\n\n- You can adjust the values ​​as you wish."
+					},
+					"response": []
+				},
+				{
+					"name": "CreateJob-415-MediaType",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 415\", function () {",
+									"    pm.response.to.have.status(415);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "<JobDto>\n\t<JobID>0</JobID>\n\t<JobTitle>string</JobTitle>\n\t<DepartmentID>0</DepartmentID>\n</JobDto>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new job but triggers a `415 Unsupported Media Type`\n\nerror due to incorrect or missing `Content-Type` header. The server expects the request body to be\n\nin JSON format.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\nAny payload — but the `Content-Type` header is missing or incorrect."
+					},
+					"response": []
+				},
+				{
+					"name": "CreateJob-409-Conflict",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 409\", function () {",
+									"    pm.response.to.have.status(409);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jobID\": 1,\n  \"jobTitle\": \"Yazılım Mühendisi\",\n  \"departmentID\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new job, but it fails with a `409 Conflict` response\n\nbecause a employee with the same `jobTitle` already exists in the database.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"jobID\": 1,  \n\"jobTitle\": \"Yazılım Mühendisi\",  \n\"departmentID\": 1  \n}"
+					},
+					"response": []
+				},
+				{
+					"name": "CreateJob-422-Unprocessable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 422\", function () {",
+									"    pm.response.to.have.status(422);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jobID\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new job but returns a `422 Unprocessable Entity` error\n\nbecause the request body is syntactically correct but semantically invalid — for example, required\n\nfields may be missing or contain invalid values.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"jobID\": 0  \n}"
+					},
+					"response": []
+				},
+				{
+					"name": "CreateJob-400-BadRequest",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to create a new job but returns a `400 Bad Request` error due to a\n\nmalformed request body — for example, empty request body, missing JSON fields, incorrect\n\nproperty names, or an invalid data format.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateJob",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jobTitle\": \"Yazılım Mühendisi.\",\n  \"departmentID\": 3\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"1"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint updates an existing job in the database using the specified `jobID` in\n\nthe URL. The request body must include the new values for the employee.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"jobTitle\": \"Yazılım Mühendisi.\",  \n\"departmentID\": 3  \n}\n\n- Always make sure that the job is still valid before update operation."
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateJob-415-MediaType",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 415\", function () {",
+									"    pm.response.to.have.status(415);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/xml",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "<JobDtoForUpdate>\n\t<JobTitle>string</JobTitle>\n\t<DepartmentID>0</DepartmentID>\n</JobDtoForUpdate>",
+							"options": {
+								"raw": {
+									"language": "xml"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"2"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update an existing job but fails due to an unsupported or missing\n\n`Content-Type` header. The server expects the request body to be sent in a supported media type,\n\nsuch as `application/json`.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\nBody is present but sent with an incorrect or missing `Content-Type` header."
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateJob-404-WrongID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jobTitle\": \"string\",\n  \"departmentID\": 0\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/1010101",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"1010101"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update a job using a non-existent `jobID`. The server\n\nreturns a 404 error indicating that the specified resource could not be found in the database.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n{  \n\"jobTitle\": \"string\",  \n\"departmentID\": 0  \n}"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateJob-400-BadRequest",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 400\", function () {",
+									"    pm.response.to.have.status(400);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"2"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update an existing job but fails due to an invalid request body or\n\nmissing required fields. The server returns a `400 Bad Request` response indicating the client sent\n\ndata the server could not process.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateJob-422-Unprocessable",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 422\", function () {",
+									"    pm.response.to.have.status(422);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jobTitle\": \"string\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"1"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to update a job but fails due to semantic errors in the request body.\n\nAlthough the request format is correct, the content violates business rules (e.g., department name\n\nis too short or invalid). The server returns a `422 Unprocessable Entity` response.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- {\n    \n\n}"
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteJob",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 204\", function () {",
+									"    pm.response.to.have.status(204);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/9154",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"9154"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint deletes an existing Job from the database by its unique Job ID.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None\n    \n\n## 📌 **Note**\n\n- Make sure the provided `JobID` exists before calling this endpoint.\n    \n- Deletion is permanent and cannot be undone."
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteJob-404-WrongID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 404\", function () {",
+									"    pm.response.to.have.status(404);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs/1212131",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs",
+								"1212131"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint attempts to delete a job using an invalid or non-existing Job ID and\n\nreturns a `404 Not Found` error.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "Jobs-Options",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Allow Header is present\", function () {",
+									"    pm.response.to.have.header(\"Allow\");",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "OPTIONS",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint returns the supported HTTP methods (OPTIONS) for the Jobs resource,\n\nhelping clients understand which operations are allowed.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				},
+				{
+					"name": "Jobs-Headers",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"X-Pagination header is present\", function () {",
+									"    pm.response.to.have.header(\"X-Pagination\");",
+									"});",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "HEAD",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5104/api/Jobs",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5104",
+							"path": [
+								"api",
+								"Jobs"
+							]
+						},
+						"description": "## 📝 **Description**\n\nThis endpoint returns only the headers without the response body for the Jobs resource.\n\nIt is mainly used to check metadata such as status codes, content type, and available headers.\n\n## 🔐 Authorization\n\n- Required: Yes\n    \n- Type: Bearer Token\n    \n\n## 📥 Request Body\n\n- None"
+					},
+					"response": []
+				}
+			],
+			"description": "## 📝 Description\n\n#### This folder contains API endpoints related to job management. You can retrieve, create, update, or delete department records. It supports features like filtering, pagination, sorting, and data shaping to efficiently query department data.",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "{{accesToken}}",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	]
+}

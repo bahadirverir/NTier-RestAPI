@@ -1,0 +1,119 @@
+/Users/Bahadr/Desktop/NTier./Services/bin/Debug/net8.0/Services.deps.json
+/Users/Bahadr/Desktop/NTier./Services/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier./Services/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier./Services/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier./Services/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier./Services/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier./Services/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/refint/Services.dll
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier./Services/obj/Debug/net8.0/ref/Services.dll
+/Users/Bahadr/Desktop/NTier. kopya/Services/bin/Debug/net8.0/Services.deps.json
+/Users/Bahadr/Desktop/NTier. kopya/Services/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier. kopya/Services/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier. kopya/Services/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier. kopya/Services/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier. kopya/Services/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier. kopya/Services/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/refint/Services.dll
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier. kopya/Services/obj/Debug/net8.0/ref/Services.dll
+/Users/Bahadr/Desktop/NTier kopyası/Services/bin/Debug/net8.0/Services.deps.json
+/Users/Bahadr/Desktop/NTier kopyası/Services/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier kopyası/Services/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier kopyası/Services/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier kopyası/Services/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier kopyası/Services/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier kopyası/Services/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/refint/Services.dll
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier kopyası/Services/obj/Debug/net8.0/ref/Services.dll
+/Users/Bahadr/Desktop/NTier/Services/bin/Debug/net8.0/Services.deps.json
+/Users/Bahadr/Desktop/NTier/Services/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier/Services/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier/Services/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTier/Services/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTier/Services/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTier/Services/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/refint/Services.dll
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTier/Services/obj/Debug/net8.0/ref/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/bin/Debug/net8.0/Services.deps.json
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/refint/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTierWebAPİ/Services/obj/Debug/net8.0/ref/Services.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/bin/Debug/net8.0/Services.deps.json
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/refint/Services.dll
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/MezuniyetProjesi/NTierWebAPI/Services/obj/Debug/net8.0/ref/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/bin/Debug/net8.0/Services.deps.json
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/bin/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/bin/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/bin/Debug/net8.0/Entities.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/bin/Debug/net8.0/Repositories.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/bin/Debug/net8.0/Entities.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/bin/Debug/net8.0/Repositories.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/Services.csproj.AssemblyReference.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/Services.AssemblyInfoInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/Services.AssemblyInfo.cs
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/Services.csproj.CoreCompileInputs.cache
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/Services.csproj.Up2Date
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/refint/Services.dll
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/Services.pdb
+/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/Debug/net8.0/ref/Services.dll
