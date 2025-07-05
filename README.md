@@ -31,7 +31,7 @@ Proje aşağıdaki 5 ana katmandan oluşmaktadır:
 ✅ Veri Doğrulama (Validation)  
 ✅ Exception Handling ve merkezi hata yönetimi  
 ✅ 🔐 **JWT ile Rol Bazlı Yetkilendirme** (Admin, Manager, User)  
-✅ 🔍 **Sayfalama, Filtreleme, Arama, Sıralama**  
+✅ 🔍 **Sayfalama, Filtreleme, Arama, Sıralama, Veri Şekillendirme**  
 ✅ 🧾 **Content Negotiation** (JSON & CSV desteği)  
 ✅ 🌐 **CORS** yapılandırması ile uç noktalara bağlantı  
 ✅ 📊 **Swagger UI** entegrasyonu ve token ile test imkanı  
