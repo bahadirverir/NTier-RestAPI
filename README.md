@@ -42,5 +42,17 @@ Proje aşağıdaki 5 ana katmandan oluşmaktadır:
 ## 🛠 Kurulum ve Çalıştırma
 
 ### 1️⃣ Depoyu Klonlayın
+Projeyi bilgisayarınıza klonlamak için terminalde şu komutu çalıştırın:
+
 ```bash
 git clone https://github.com/bahadirverir/Ntier-RestApi.git
+```
+### 2️⃣ Veritabanı Oluşturma
+Terminali açın ve proje klasöründe WebApi katmanına geçin.
+
+Aşağıdaki komutu girerek veritabanını oluşturun.
+```bash
+dotnet ef database update
+```
+❗️ Kurulum aşamasında sorun yaşamamak için `Kurulum-Bilgilendirme.rtf` dosyasına göz atın. 
+
