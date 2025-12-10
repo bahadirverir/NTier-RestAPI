@@ -1,58 +1,58 @@
-# 🧩 NTier Restful Web API Projesi (.NET 8 - Katmanlı Mimari)
+# 🧩 NTier Restful Web API Project (.NET 8 - Layered Architecture)
 
-Bu proje, **ASP.NET Core 8 Web API** kullanılarak geliştirilmiş, çok katmanlı mimariyi temel alan bir RESTful servis uygulamasıdır. Amaç; sürdürülebilir, test edilebilir, modüler ve genişletilebilir bir backend mimarisi sunmak, aynı zamanda gerçek hayat senaryolarına uygun temel yapıların oluşturulmasını sağlamaktır.
-
----
-
-## 🚀 Proje Özeti
-
-Proje, Entity Framework Core ile veritabanı işlemlerinin yönetildiği, servis katmanında iş kurallarının tanımlandığı ve sunum katmanında RESTful API uçlarının tanımlandığı çok katmanlı bir yapıdadır. CORS, sayfalama, filtreleme, sıralama, JWT ile rol bazlı yetkilendirme, Swagger genişletmeleri ve Postman entegrasyonu gibi birçok ileri düzey özellik projeye entegre edilmiştir.
+This project is a RESTful service application built with **ASP.NET Core 8 Web API**, based on a multi-layered architecture. The goal is to provide a sustainable, testable, modular, and extensible backend architecture while establishing foundational structures suitable for real-world scenarios.
 
 ---
 
-## 🧱 Katman Yapısı
+## 🚀 Project Overview
 
-Proje aşağıdaki 5 ana katmandan oluşmaktadır:
-
-- **Entities**: Veritabanı tablolarını temsil eden modeller (ör: `Department`, `Employee`, `Job`) ve ilgili veri açıklamaları bu katmanda tanımlanmıştır.
-- **Repositories**: Veri erişim işlemleri, `IQueryable` üzerinden sorgulama, `trackChanges` ile nesne takibi ve veritabanı bağlantı altyapısı burada oluşturulmuştur.
-- **Services**: İş mantıkları, doğrulama kontrolleri ve CRUD operasyonlarının yönetildiği katmandır.
-- **Presentation**: Controller yapıları bu katmanda bulunur. İstemciden gelen istekler burada işlenir ve ilgili servisler çağrılır.
-- **WebApi**: Uygulamanın çekirdek başlatma katmanıdır. `Program.cs` ve `ServiceExtensions` ile yapılandırmalar burada gerçekleştirilmiştir (Swagger, CORS, Authentication, vb.).
+The project features a multi-layered design in which Entity Framework Core manages database operations, the service layer contains business rules, and the presentation layer exposes RESTful API endpoints. Several advanced features—such as CORS, pagination, filtering, sorting, role-based authorization using JWT, Swagger enhancements, and Postman integration—are implemented in the solution.
 
 ---
 
-## ⚙️ Temel Özellikler
+## 🧱 Layered Structure
 
-✅ Katmanlı Mimari (N-Tier)  
+The project consists of the following five primary layers:
+
+- **Entities**: Contains models representing database tables (e.g., `Department`, `Employee`, `Job`) and related data annotations.
+- **Repositories**: Includes data access operations, `IQueryable`-based querying, `trackChanges` support, and database connection infrastructure.
+- **Services**: Hosts business logic, validation processes, and management of CRUD operations.
+- **Presentation**: Contains controller structures. Incoming client requests are handled here, and the corresponding services are invoked.
+- **WebApi**: The core startup layer of the application. Configuration tasks (Swagger, CORS, Authentication, etc.) are performed here via `Program.cs` and `ServiceExtensions`.
+
+---
+
+## ⚙️ Key Features
+
+✅ Layered Architecture (N-Tier)  
 ✅ Repository & Service Pattern  
-✅ `IQueryable` ile performanslı sorgular  
-✅ `trackChanges` ile nesne takipli işlemler  
-✅ Veri Doğrulama (Validation)  
-✅ Exception Handling ve merkezi hata yönetimi  
-✅ 🔐 **JWT ile Rol Bazlı Yetkilendirme** (Admin, Manager, User)  
-✅ 🔍 **Sayfalama, Filtreleme, Arama, Sıralama, Veri Şekillendirme**  
-✅ 🧾 **Content Negotiation** (JSON & CSV desteği)  
-✅ 🌐 **CORS** yapılandırması ile uç noktalara bağlantı  
-✅ 📊 **Swagger UI** entegrasyonu ve token ile test imkanı  
-✅ 📬 **Postman koleksiyonu** ile test senaryoları  
+✅ Efficient querying with `IQueryable`  
+✅ Entity tracking via `trackChanges`  
+✅ Data Validation  
+✅ Exception Handling and centralized error management  
+✅ 🔐 **Role-Based Authorization with JWT** (Admin, Manager, User)  
+✅ 🔍 **Pagination, Filtering, Searching, Sorting, Data Shaping**  
+✅ 🧾 **Content Negotiation** (JSON & CSV support)  
+✅ 🌐 **CORS** configuration  
+✅ 📊 **Swagger UI** integration with token support for testing  
+✅ 📬 **Postman collection** for test scenarios  
 
 ---
 
-## 🛠 Kurulum ve Çalıştırma
+## 🛠 Installation & Setup
 
-### 1️⃣ Depoyu Klonlayın
-Projeyi bilgisayarınıza klonlamak için terminalde şu komutu çalıştırın:
+### 1️⃣ Clone the Repository
+Run the following command in your terminal to clone the project:
 
 ```bash
 git clone https://github.com/bahadirverir/Ntier-RestApi.git
 ```
-### 2️⃣ Veritabanı Oluşturma
-Terminali açın ve proje klasöründe WebApi katmanına geçin.
+### 2️⃣ Create the Database
+Open a terminal and navigate to the WebApi layer of the project.
 
-Aşağıdaki komutu girerek veritabanını oluşturun.
+Run the command below to create the database.
 ```bash
 dotnet ef database update
 ```
-❗️ Kurulum aşamasında sorun yaşamamak için `Kurulum-Bilgilendirme.rtf` dosyasına göz atın. 
+❗️ To avoid issues during setup, review the `SetupIntructions.rtf` file. 
 
