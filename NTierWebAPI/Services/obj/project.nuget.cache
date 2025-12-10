@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZpfEuBYq2CI=",
+  "dgSpecHash": "52s1YU8mWYQ=",
   "success": true,
-  "projectFilePath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/Services.csproj",
+  "projectFilePath": "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Services/Services.csproj",
   "expectedPackageFiles": [
     "/Users/Bahadr/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/Bahadr/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

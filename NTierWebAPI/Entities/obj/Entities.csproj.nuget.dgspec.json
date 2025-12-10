@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj": {}
+    "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Entities/Entities.csproj": {}
   },
   "projects": {
-    "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj": {
+    "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Entities/Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj",
+        "projectUniqueName": "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Entities/Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj",
+        "projectPath": "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Entities/Entities.csproj",
         "packagesPath": "/Users/Bahadr/.nuget/packages/",
-        "outputPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/obj/",
+        "outputPath": "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Bahadr/.nuget/NuGet/NuGet.Config"

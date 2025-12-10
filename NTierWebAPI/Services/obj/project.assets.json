@@ -1266,11 +1266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/Services.csproj",
+      "projectUniqueName": "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Services/Services.csproj",
       "projectName": "Services",
-      "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/Services.csproj",
+      "projectPath": "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Services/Services.csproj",
       "packagesPath": "/Users/Bahadr/.nuget/packages/",
-      "outputPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Services/obj/",
+      "outputPath": "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Services/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Bahadr/.nuget/NuGet/NuGet.Config"
@@ -1286,11 +1286,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj": {
-              "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Entities/Entities.csproj"
+            "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Entities/Entities.csproj": {
+              "projectPath": "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Entities/Entities.csproj"
             },
-            "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/Repositories.csproj": {
-              "projectPath": "/Users/Bahadr/Desktop/NTierWebAPI/NTierWebAPI/Repositories/Repositories.csproj"
+            "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Repositories/Repositories.csproj": {
+              "projectPath": "/Users/Bahadr/Desktop/NTier-RestAPI/NTierWebAPI/Repositories/Repositories.csproj"
             }
           }
         }
